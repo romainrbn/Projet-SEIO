@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7E4BC6062620EA5700804081 /* Projet_SEIOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6052620EA5700804081 /* Projet_SEIOApp.swift */; };
-		7E4BC6082620EA5700804081 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6072620EA5700804081 /* ContentView.swift */; };
+		7E4BC6082620EA5700804081 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6072620EA5700804081 /* HomeView.swift */; };
 		7E4BC60A2620EA5A00804081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BC6092620EA5A00804081 /* Assets.xcassets */; };
 		7E4BC60D2620EA5A00804081 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BC60C2620EA5A00804081 /* Preview Assets.xcassets */; };
-		7E4BC60F2620EA5A00804081 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC60E2620EA5A00804081 /* Persistence.swift */; };
 		7E4BC6122620EA5A00804081 /* Projet_SEIO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6102620EA5A00804081 /* Projet_SEIO.xcdatamodeld */; };
 		7E4BC61D2620EA5A00804081 /* Projet_SEIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC61C2620EA5A00804081 /* Projet_SEIOTests.swift */; };
 		7E4BC6282620EA5A00804081 /* Projet_SEIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6272620EA5A00804081 /* Projet_SEIOUITests.swift */; };
+		7E4BC6382620EF3100804081 /* InterfaceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6372620EF3100804081 /* InterfaceHelpers.swift */; };
+		7E4BC63A2620F0EA00804081 /* DiagnosticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6392620F0EA00804081 /* DiagnosticView.swift */; };
+		7E8DC93C264D7D1500B1FCE1 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DC93B264D7D1500B1FCE1 /* questions.json */; };
+		7E8DC940264D7D3C00B1FCE1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC93F264D7D3C00B1FCE1 /* Question.swift */; };
+		7E8DC943264D7DD700B1FCE1 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,9 @@
 /* Begin PBXFileReference section */
 		7E4BC6022620EA5700804081 /* Projet_SEIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet_SEIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4BC6052620EA5700804081 /* Projet_SEIOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_SEIOApp.swift; sourceTree = "<group>"; };
-		7E4BC6072620EA5700804081 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E4BC6072620EA5700804081 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7E4BC6092620EA5A00804081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E4BC60C2620EA5A00804081 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7E4BC60E2620EA5A00804081 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7E4BC6112620EA5A00804081 /* Projet_SEIO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Projet_SEIO.xcdatamodel; sourceTree = "<group>"; };
 		7E4BC6132620EA5A00804081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4BC6182620EA5A00804081 /* Projet_SEIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projet_SEIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +52,11 @@
 		7E4BC6232620EA5A00804081 /* Projet_SEIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projet_SEIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4BC6272620EA5A00804081 /* Projet_SEIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_SEIOUITests.swift; sourceTree = "<group>"; };
 		7E4BC6292620EA5A00804081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4BC6372620EF3100804081 /* InterfaceHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceHelpers.swift; sourceTree = "<group>"; };
+		7E4BC6392620F0EA00804081 /* DiagnosticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticView.swift; sourceTree = "<group>"; };
+		7E8DC93B264D7D1500B1FCE1 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		7E8DC93F264D7D3C00B1FCE1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				7E4BC6052620EA5700804081 /* Projet_SEIOApp.swift */,
-				7E4BC6072620EA5700804081 /* ContentView.swift */,
+				7E8DC944264D83DF00B1FCE1 /* Views */,
+				7E8DC941264D7DCA00B1FCE1 /* Helpers */,
+				7E8DC93E264D7D2000B1FCE1 /* Model */,
+				7E8DC93D264D7D1900B1FCE1 /* Data */,
 				7E4BC6092620EA5A00804081 /* Assets.xcassets */,
-				7E4BC60E2620EA5A00804081 /* Persistence.swift */,
 				7E4BC6132620EA5A00804081 /* Info.plist */,
 				7E4BC6102620EA5A00804081 /* Projet_SEIO.xcdatamodeld */,
 				7E4BC60B2620EA5A00804081 /* Preview Content */,
@@ -134,6 +144,40 @@
 				7E4BC6292620EA5A00804081 /* Info.plist */,
 			);
 			path = Projet_SEIOUITests;
+			sourceTree = "<group>";
+		};
+		7E8DC93D264D7D1900B1FCE1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7E8DC93B264D7D1500B1FCE1 /* questions.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7E8DC93E264D7D2000B1FCE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E8DC93F264D7D3C00B1FCE1 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E8DC941264D7DCA00B1FCE1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7E4BC6372620EF3100804081 /* InterfaceHelpers.swift */,
+				7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7E8DC944264D83DF00B1FCE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E4BC6392620F0EA00804081 /* DiagnosticView.swift */,
+				7E4BC6072620EA5700804081 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8DC93C264D7D1500B1FCE1 /* questions.json in Resources */,
 				7E4BC60D2620EA5A00804081 /* Preview Assets.xcassets in Resources */,
 				7E4BC60A2620EA5A00804081 /* Assets.xcassets in Resources */,
 			);
@@ -265,9 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4BC60F2620EA5A00804081 /* Persistence.swift in Sources */,
-				7E4BC6082620EA5700804081 /* ContentView.swift in Sources */,
+				7E8DC940264D7D3C00B1FCE1 /* Question.swift in Sources */,
+				7E4BC6382620EF3100804081 /* InterfaceHelpers.swift in Sources */,
+				7E4BC6082620EA5700804081 /* HomeView.swift in Sources */,
+				7E8DC943264D7DD700B1FCE1 /* Bundle-Decodable.swift in Sources */,
 				7E4BC6062620EA5700804081 /* Projet_SEIOApp.swift in Sources */,
+				7E4BC63A2620F0EA00804081 /* DiagnosticView.swift in Sources */,
 				7E4BC6122620EA5A00804081 /* Projet_SEIO.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
