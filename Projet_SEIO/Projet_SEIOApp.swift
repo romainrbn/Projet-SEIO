@@ -12,7 +12,7 @@ struct Projet_SEIOApp: App {
     
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            LoginView()
         }
     }
 }

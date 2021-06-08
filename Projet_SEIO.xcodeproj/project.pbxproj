@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,11 @@
 		7E8DC93C264D7D1500B1FCE1 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DC93B264D7D1500B1FCE1 /* questions.json */; };
 		7E8DC940264D7D3C00B1FCE1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC93F264D7D3C00B1FCE1 /* Question.swift */; };
 		7E8DC943264D7DD700B1FCE1 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */; };
+		7E8DC946264D91D500B1FCE1 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC945264D91D500B1FCE1 /* QuestionView.swift */; };
+		7E8DC948264D91F800B1FCE1 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC947264D91F800B1FCE1 /* ResultView.swift */; };
+		7E8DC94A264D999F00B1FCE1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC949264D999F00B1FCE1 /* LoginView.swift */; };
+		7E92C98D26667F8700017B66 /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = 7E92C98C26667F8700017B66 /* SimpleToast */; };
+		7EC134AC266AB90D00E56950 /* QuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC134AB266AB90D00E56950 /* QuestionnaireView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,10 @@
 		7E8DC93B264D7D1500B1FCE1 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		7E8DC93F264D7D3C00B1FCE1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		7E8DC945264D91D500B1FCE1 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		7E8DC947264D91F800B1FCE1 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		7E8DC949264D999F00B1FCE1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7EC134AB266AB90D00E56950 /* QuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E92C98D26667F8700017B66 /* SimpleToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +184,12 @@
 		7E8DC944264D83DF00B1FCE1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7E4BC6392620F0EA00804081 /* DiagnosticView.swift */,
+				7E8DC949264D999F00B1FCE1 /* LoginView.swift */,
 				7E4BC6072620EA5700804081 /* HomeView.swift */,
+				7E4BC6392620F0EA00804081 /* DiagnosticView.swift */,
+				7E8DC945264D91D500B1FCE1 /* QuestionView.swift */,
+				7E8DC947264D91F800B1FCE1 /* ResultView.swift */,
+				7EC134AB266AB90D00E56950 /* QuestionnaireView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +210,9 @@
 			dependencies = (
 			);
 			name = Projet_SEIO;
+			packageProductDependencies = (
+				7E92C98C26667F8700017B66 /* SimpleToast */,
+			);
 			productName = Projet_SEIO;
 			productReference = 7E4BC6022620EA5700804081 /* Projet_SEIO.app */;
 			productType = "com.apple.product-type.application";
@@ -267,6 +284,9 @@
 				Base,
 			);
 			mainGroup = 7E4BC5F92620EA5700804081;
+			packageReferences = (
+				7E92C98B26667F8700017B66 /* XCRemoteSwiftPackageReference "SimpleToast" */,
+			);
 			productRefGroup = 7E4BC6032620EA5700804081 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -310,12 +330,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8DC946264D91D500B1FCE1 /* QuestionView.swift in Sources */,
 				7E8DC940264D7D3C00B1FCE1 /* Question.swift in Sources */,
+				7E8DC948264D91F800B1FCE1 /* ResultView.swift in Sources */,
 				7E4BC6382620EF3100804081 /* InterfaceHelpers.swift in Sources */,
 				7E4BC6082620EA5700804081 /* HomeView.swift in Sources */,
+				7EC134AC266AB90D00E56950 /* QuestionnaireView.swift in Sources */,
 				7E8DC943264D7DD700B1FCE1 /* Bundle-Decodable.swift in Sources */,
 				7E4BC6062620EA5700804081 /* Projet_SEIOApp.swift in Sources */,
 				7E4BC63A2620F0EA00804081 /* DiagnosticView.swift in Sources */,
+				7E8DC94A264D999F00B1FCE1 /* LoginView.swift in Sources */,
 				7E4BC6122620EA5A00804081 /* Projet_SEIO.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -636,6 +660,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E92C98B26667F8700017B66 /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E92C98C26667F8700017B66 /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E92C98B26667F8700017B66 /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7E4BC6102620EA5A00804081 /* Projet_SEIO.xcdatamodeld */ = {

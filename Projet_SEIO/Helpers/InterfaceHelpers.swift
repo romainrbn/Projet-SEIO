@@ -28,7 +28,6 @@ struct ColoredButtonStyle: ButtonStyle {
                 Color.black.opacity(configuration.isPressed ? 0.3 : 0)
                     .clipShape(RoundedRectangle(cornerRadius: 13))
             )
-
     }
 }
 
@@ -52,11 +51,28 @@ struct OutlinedButtonStyle: ButtonStyle {
             .foregroundColor(shouldHaveBackgroundEnabled ? .white : color)
             .overlay(
                 RoundedRectangle(cornerRadius: 20)
-                                .stroke(color, lineWidth: 2)
+                    .stroke(configuration.isPressed ? Color.black.opacity(0.001) : color, lineWidth: 2)
             )
             .overlay(
                 Color.black.opacity(configuration.isPressed ? 0.2 : 0)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
             )
+    }
+}
+
+struct BottomButtonStyle: ButtonStyle {
+    let width: CGFloat
+    let height: CGFloat
+    
+    func makeBody(configuration: Configuration) -> some View {
+        
+        configuration.label.foregroundColor(Color.blue)
+                .font(.callout)
+   //             .fontWeight(.semibold)
+                .frame(width: width)
+               // .padding(.bottom, height)
+                .padding(.vertical)
+                .edgesIgnoringSafeArea(.bottom)
+                .background(configuration.isPressed ? Color.gray : Color("BackgroundPlain"))
     }
 }

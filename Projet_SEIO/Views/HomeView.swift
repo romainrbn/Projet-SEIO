@@ -15,10 +15,20 @@ struct HomeView: View {
     @State private var showDiagnosticSheet = false
     @State private var showAlert = false
     
+    @Binding var showFlag: Bool
+    @Binding var dismissFlag: Bool
+    @State var rpps: String
+    
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         NavigationView {
             emptyViewContent
                 .navigationTitle("Accueil")
+                .navigationBarItems(trailing: Button("Déconnexion", action: {
+                    self.dismissFlag.toggle()
+                })
+            )
         }
     }
     
@@ -51,7 +61,7 @@ struct HomeView: View {
                     // Affiche une alerte de confirmation
                     self.showAlert.toggle()
                 }
-                .buttonStyle(ColoredButtonStyle(color: .blue))
+                .buttonStyle(ColoredButtonStyle(color: .accentColor))
                 .padding(.top, 25)
                 
             }.padding(.vertical)
@@ -61,18 +71,12 @@ struct HomeView: View {
                     message: Text("En continuant, vous vous engagez à tenir le rôle de médecin."),
                     primaryButton: .default(Text("Continuer"), action: {
                     self.showDiagnosticSheet.toggle()
-                }), secondaryButton: .cancel()
+                }), secondaryButton: .cancel(Text("Annuler"))
                 )
             })
-            .sheet(isPresented: $showDiagnosticSheet, content: {
-                DiagnosticView(showFlag: $showDiagnosticSheet)
-        })
+            .fullScreenCover(isPresented: $showDiagnosticSheet, content: {
+                QuestionnaireView(showFlag: $showDiagnosticSheet)
+            })
         }
-    }
-}
-
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
     }
 }
