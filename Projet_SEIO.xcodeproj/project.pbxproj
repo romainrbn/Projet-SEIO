@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E08CE3526A1B3EA00F9F53A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7E08CE3426A1B3EA00F9F53A /* Lottie */; };
+		7E2EFAE826726E2C005B9962 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EFAE726726E2C005B9962 /* ResultsView.swift */; };
 		7E4BC6062620EA5700804081 /* Projet_SEIOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6052620EA5700804081 /* Projet_SEIOApp.swift */; };
 		7E4BC6082620EA5700804081 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6072620EA5700804081 /* HomeView.swift */; };
 		7E4BC60A2620EA5A00804081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BC6092620EA5A00804081 /* Assets.xcassets */; };
@@ -15,14 +17,23 @@
 		7E4BC61D2620EA5A00804081 /* Projet_SEIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC61C2620EA5A00804081 /* Projet_SEIOTests.swift */; };
 		7E4BC6282620EA5A00804081 /* Projet_SEIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6272620EA5A00804081 /* Projet_SEIOUITests.swift */; };
 		7E4BC6382620EF3100804081 /* InterfaceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6372620EF3100804081 /* InterfaceHelpers.swift */; };
-		7E4BC63A2620F0EA00804081 /* DiagnosticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BC6392620F0EA00804081 /* DiagnosticView.swift */; };
-		7E8DC93C264D7D1500B1FCE1 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DC93B264D7D1500B1FCE1 /* questions.json */; };
+		7E621EFB267CF94F00E75581 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E621EFA267CF94F00E75581 /* SceneDelegate.swift */; };
+		7E621EFF268321EF00E75581 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E621EFE268321EF00E75581 /* MoreInfoView.swift */; };
+		7E621F0226832EED00E75581 /* PDFViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E621F0126832EED00E75581 /* PDFViewRepresentable.swift */; };
+		7E621F0426832FCE00E75581 /* PDFCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E621F0326832FCE00E75581 /* PDFCreator.swift */; };
+		7E621F062683456D00E75581 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E621F052683456D00E75581 /* ShareSheet.swift */; };
 		7E8DC940264D7D3C00B1FCE1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC93F264D7D3C00B1FCE1 /* Question.swift */; };
 		7E8DC943264D7DD700B1FCE1 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */; };
-		7E8DC946264D91D500B1FCE1 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC945264D91D500B1FCE1 /* QuestionView.swift */; };
-		7E8DC948264D91F800B1FCE1 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC947264D91F800B1FCE1 /* ResultView.swift */; };
 		7E8DC94A264D999F00B1FCE1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC949264D999F00B1FCE1 /* LoginView.swift */; };
+		7E91C08A26A1B29C003ACAFA /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C08926A1B29C003ACAFA /* LottieView.swift */; };
 		7E92C98D26667F8700017B66 /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = 7E92C98C26667F8700017B66 /* SimpleToast */; };
+		7EA4029E26943BC700042CF4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EA402A026943BC700042CF4 /* Localizable.strings */; };
+		7EA402A22694421A00042CF4 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EA402A42694421A00042CF4 /* questions.json */; };
+		7EA402A726A1AE4F00042CF4 /* UserPasswordInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA402A626A1AE4F00042CF4 /* UserPasswordInfos.swift */; };
+		7EA402A926A1B1B400042CF4 /* Computer Work.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EA402A826A1B1B400042CF4 /* Computer Work.json */; };
+		7EB7C015267A252B00ACC0B2 /* LoginCredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7C014267A252B00ACC0B2 /* LoginCredentialsView.swift */; };
+		7EBC30F0266F82920064E4C9 /* QuizReponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC30EF266F82920064E4C9 /* QuizReponseView.swift */; };
+		7EBC30F2266F82A70064E4C9 /* EnonceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC30F1266F82A70064E4C9 /* EnonceView.swift */; };
 		7EC134AC266AB90D00E56950 /* QuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC134AB266AB90D00E56950 /* QuestionnaireView.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E2EFAE726726E2C005B9962 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		7E4BC6022620EA5700804081 /* Projet_SEIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet_SEIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4BC6052620EA5700804081 /* Projet_SEIOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_SEIOApp.swift; sourceTree = "<group>"; };
 		7E4BC6072620EA5700804081 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -58,13 +70,25 @@
 		7E4BC6272620EA5A00804081 /* Projet_SEIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_SEIOUITests.swift; sourceTree = "<group>"; };
 		7E4BC6292620EA5A00804081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4BC6372620EF3100804081 /* InterfaceHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceHelpers.swift; sourceTree = "<group>"; };
-		7E4BC6392620F0EA00804081 /* DiagnosticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticView.swift; sourceTree = "<group>"; };
-		7E8DC93B264D7D1500B1FCE1 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		7E621EFA267CF94F00E75581 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E621EFE268321EF00E75581 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
+		7E621F0126832EED00E75581 /* PDFViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewRepresentable.swift; sourceTree = "<group>"; };
+		7E621F0326832FCE00E75581 /* PDFCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFCreator.swift; sourceTree = "<group>"; };
+		7E621F052683456D00E75581 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		7E8DC93F264D7D3C00B1FCE1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
-		7E8DC945264D91D500B1FCE1 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
-		7E8DC947264D91F800B1FCE1 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		7E8DC949264D999F00B1FCE1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7E91C08926A1B29C003ACAFA /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		7EA4029F26943BC700042CF4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EA402A126943BCA00042CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EA402A32694421A00042CF4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = fr; path = fr.lproj/questions.json; sourceTree = "<group>"; };
+		7EA402A52694421C00042CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/questions.json; sourceTree = "<group>"; };
+		7EA402A626A1AE4F00042CF4 /* UserPasswordInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordInfos.swift; sourceTree = "<group>"; };
+		7EA402A826A1B1B400042CF4 /* Computer Work.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Computer Work.json"; sourceTree = "<group>"; };
+		7EB7C014267A252B00ACC0B2 /* LoginCredentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentialsView.swift; sourceTree = "<group>"; };
+		7EBC30EF266F82920064E4C9 /* QuizReponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizReponseView.swift; sourceTree = "<group>"; };
+		7EBC30F1266F82A70064E4C9 /* EnonceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnonceView.swift; sourceTree = "<group>"; };
+		7EBC30F3266F92AF0064E4C9 /* Projet_SEIO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Projet_SEIO.entitlements; sourceTree = "<group>"; };
 		7EC134AB266AB90D00E56950 /* QuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +98,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E92C98D26667F8700017B66 /* SimpleToast in Frameworks */,
+				7E08CE3526A1B3EA00F9F53A /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +119,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E08CE3326A1B3EA00F9F53A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E4BC5F92620EA5700804081 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +133,7 @@
 				7E4BC61B2620EA5A00804081 /* Projet_SEIOTests */,
 				7E4BC6262620EA5A00804081 /* Projet_SEIOUITests */,
 				7E4BC6032620EA5700804081 /* Products */,
+				7E08CE3326A1B3EA00F9F53A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,10 +150,27 @@
 		7E4BC6042620EA5700804081 /* Projet_SEIO */ = {
 			isa = PBXGroup;
 			children = (
+				7EBC30F3266F92AF0064E4C9 /* Projet_SEIO.entitlements */,
 				7E4BC6052620EA5700804081 /* Projet_SEIOApp.swift */,
-				7E8DC944264D83DF00B1FCE1 /* Views */,
-				7E8DC941264D7DCA00B1FCE1 /* Helpers */,
-				7E8DC93E264D7D2000B1FCE1 /* Model */,
+				7E621EFA267CF94F00E75581 /* SceneDelegate.swift */,
+				7EA402A026943BC700042CF4 /* Localizable.strings */,
+				7E8DC949264D999F00B1FCE1 /* LoginView.swift */,
+				7EB7C014267A252B00ACC0B2 /* LoginCredentialsView.swift */,
+				7E4BC6072620EA5700804081 /* HomeView.swift */,
+				7E621EFE268321EF00E75581 /* MoreInfoView.swift */,
+				7E91C08926A1B29C003ACAFA /* LottieView.swift */,
+				7EC134AB266AB90D00E56950 /* QuestionnaireView.swift */,
+				7E2EFAE726726E2C005B9962 /* ResultsView.swift */,
+				7EA402A626A1AE4F00042CF4 /* UserPasswordInfos.swift */,
+				7EBC30F1266F82A70064E4C9 /* EnonceView.swift */,
+				7EBC30EF266F82920064E4C9 /* QuizReponseView.swift */,
+				7E621F0126832EED00E75581 /* PDFViewRepresentable.swift */,
+				7E621F0326832FCE00E75581 /* PDFCreator.swift */,
+				7E621F052683456D00E75581 /* ShareSheet.swift */,
+				7E4BC6372620EF3100804081 /* InterfaceHelpers.swift */,
+				7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */,
+				7E8DC93F264D7D3C00B1FCE1 /* Question.swift */,
+				7EA402A42694421A00042CF4 /* questions.json */,
 				7E8DC93D264D7D1900B1FCE1 /* Data */,
 				7E4BC6092620EA5A00804081 /* Assets.xcassets */,
 				7E4BC6132620EA5A00804081 /* Info.plist */,
@@ -159,39 +209,9 @@
 		7E8DC93D264D7D1900B1FCE1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				7E8DC93B264D7D1500B1FCE1 /* questions.json */,
+				7EA402A826A1B1B400042CF4 /* Computer Work.json */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		7E8DC93E264D7D2000B1FCE1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7E8DC93F264D7D3C00B1FCE1 /* Question.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		7E8DC941264D7DCA00B1FCE1 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				7E4BC6372620EF3100804081 /* InterfaceHelpers.swift */,
-				7E8DC942264D7DD700B1FCE1 /* Bundle-Decodable.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		7E8DC944264D83DF00B1FCE1 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7E8DC949264D999F00B1FCE1 /* LoginView.swift */,
-				7E4BC6072620EA5700804081 /* HomeView.swift */,
-				7E4BC6392620F0EA00804081 /* DiagnosticView.swift */,
-				7E8DC945264D91D500B1FCE1 /* QuestionView.swift */,
-				7E8DC947264D91F800B1FCE1 /* ResultView.swift */,
-				7EC134AB266AB90D00E56950 /* QuestionnaireView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +232,7 @@
 			name = Projet_SEIO;
 			packageProductDependencies = (
 				7E92C98C26667F8700017B66 /* SimpleToast */,
+				7E08CE3426A1B3EA00F9F53A /* Lottie */,
 			);
 			productName = Projet_SEIO;
 			productReference = 7E4BC6022620EA5700804081 /* Projet_SEIO.app */;
@@ -277,15 +298,17 @@
 			};
 			buildConfigurationList = 7E4BC5FD2620EA5700804081 /* Build configuration list for PBXProject "Projet_SEIO" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = fr;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 7E4BC5F92620EA5700804081;
 			packageReferences = (
 				7E92C98B26667F8700017B66 /* XCRemoteSwiftPackageReference "SimpleToast" */,
+				7E91C08B26A1B31E003ACAFA /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 7E4BC6032620EA5700804081 /* Products */;
 			projectDirPath = "";
@@ -303,7 +326,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E8DC93C264D7D1500B1FCE1 /* questions.json in Resources */,
+				7EA402A22694421A00042CF4 /* questions.json in Resources */,
+				7EA402A926A1B1B400042CF4 /* Computer Work.json in Resources */,
+				7EA4029E26943BC700042CF4 /* Localizable.strings in Resources */,
 				7E4BC60D2620EA5A00804081 /* Preview Assets.xcassets in Resources */,
 				7E4BC60A2620EA5A00804081 /* Assets.xcassets in Resources */,
 			);
@@ -330,15 +355,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E8DC946264D91D500B1FCE1 /* QuestionView.swift in Sources */,
+				7EA402A726A1AE4F00042CF4 /* UserPasswordInfos.swift in Sources */,
 				7E8DC940264D7D3C00B1FCE1 /* Question.swift in Sources */,
-				7E8DC948264D91F800B1FCE1 /* ResultView.swift in Sources */,
+				7E621F0226832EED00E75581 /* PDFViewRepresentable.swift in Sources */,
 				7E4BC6382620EF3100804081 /* InterfaceHelpers.swift in Sources */,
+				7EBC30F2266F82A70064E4C9 /* EnonceView.swift in Sources */,
+				7EBC30F0266F82920064E4C9 /* QuizReponseView.swift in Sources */,
+				7E91C08A26A1B29C003ACAFA /* LottieView.swift in Sources */,
+				7EB7C015267A252B00ACC0B2 /* LoginCredentialsView.swift in Sources */,
+				7E621EFB267CF94F00E75581 /* SceneDelegate.swift in Sources */,
+				7E621F0426832FCE00E75581 /* PDFCreator.swift in Sources */,
 				7E4BC6082620EA5700804081 /* HomeView.swift in Sources */,
 				7EC134AC266AB90D00E56950 /* QuestionnaireView.swift in Sources */,
 				7E8DC943264D7DD700B1FCE1 /* Bundle-Decodable.swift in Sources */,
+				7E621F062683456D00E75581 /* ShareSheet.swift in Sources */,
 				7E4BC6062620EA5700804081 /* Projet_SEIOApp.swift in Sources */,
-				7E4BC63A2620F0EA00804081 /* DiagnosticView.swift in Sources */,
+				7E621EFF268321EF00E75581 /* MoreInfoView.swift in Sources */,
+				7E2EFAE826726E2C005B9962 /* ResultsView.swift in Sources */,
 				7E8DC94A264D999F00B1FCE1 /* LoginView.swift in Sources */,
 				7E4BC6122620EA5A00804081 /* Projet_SEIO.xcdatamodeld in Sources */,
 			);
@@ -374,6 +407,27 @@
 			targetProxy = 7E4BC6242620EA5A00804081 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EA402A026943BC700042CF4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA4029F26943BC700042CF4 /* fr */,
+				7EA402A126943BCA00042CF4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7EA402A42694421A00042CF4 /* questions.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA402A32694421A00042CF4 /* fr */,
+				7EA402A52694421C00042CF4 /* en */,
+			);
+			name = questions.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7E4BC62A2620EA5A00804081 /* Debug */ = {
@@ -427,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -482,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -497,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Projet_SEIO/Projet_SEIO.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Projet_SEIO/Preview Content\"";
 				DEVELOPMENT_TEAM = 2NB7KR2A8L;
@@ -509,6 +564,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.romainrbn.Projet-SEIO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -519,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Projet_SEIO/Projet_SEIO.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Projet_SEIO/Preview Content\"";
 				DEVELOPMENT_TEAM = 2NB7KR2A8L;
@@ -531,6 +588,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.romainrbn.Projet-SEIO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -662,6 +720,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7E91C08B26A1B31E003ACAFA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		7E92C98B26667F8700017B66 /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
@@ -673,6 +739,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7E08CE3426A1B3EA00F9F53A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E91C08B26A1B31E003ACAFA /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
 		7E92C98C26667F8700017B66 /* SimpleToast */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7E92C98B26667F8700017B66 /* XCRemoteSwiftPackageReference "SimpleToast" */;

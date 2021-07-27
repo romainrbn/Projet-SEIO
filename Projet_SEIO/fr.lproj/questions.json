@@ -1,12 +1,5 @@
 [
     {
-      "id": 0,
-      "intitule": "Qui fait l'inclusion ?",
-      "titre": "Médecin du sport",
-      "choix": ["Junior", "Senior"],
-      "scorable": false
-    },
-    {
       "id": 1,
       "intitule": "Douleur (EVA)",
       "titre": "Évaluer la douleur lors du traumatisme",
@@ -15,11 +8,11 @@
     },
     {
       "id": 2,
-      "intitule": "Impotence fonctionnelle",
+      "intitule": "Impotence fonctionnelle immédiate",
       "titre": null,
       "choix": [
-        "Reprise possible",
-        "Reprise temporaire",
+        "Reprise possible de l’activité",
+        "Reprise temporaire de l’activité",
         "Arrêt de l'activité",
         "Appui impossible"
       ],
@@ -27,14 +20,14 @@
     },
     {
       "id": 3,
-      "intitule": "Craquement",
+      "intitule": "Craquement à la blessure",
       "titre": null,
-      "choix": ["Non", "Ressenti", "Audible"],
+      "choix": ["Non", "Ressenti par le patient", "Audible par le patient ou l’entourage"],
       "scorable": true
     },
     {
       "id": 4,
-      "intitule": "Instabilité",
+      "intitule": "Instabilité à la blessure",
       "titre": null,
       "choix": [
         "Non",

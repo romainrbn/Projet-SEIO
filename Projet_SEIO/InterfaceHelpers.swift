@@ -68,9 +68,7 @@ struct BottomButtonStyle: ButtonStyle {
         
         configuration.label.foregroundColor(Color.blue)
                 .font(.callout)
-   //             .fontWeight(.semibold)
                 .frame(width: width)
-               // .padding(.bottom, height)
                 .padding(.vertical)
                 .edgesIgnoringSafeArea(.bottom)
                 .background(configuration.isPressed ? Color.gray : Color("BackgroundPlain"))
